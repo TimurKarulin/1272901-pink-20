@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Тимур Карулин](https://up.htmlacademy.ru/adaptive/20/user/1272901).
-* Наставник: `Неизвестно`.
+* Наставник: Дмитрий Гуляев.
 
 ---
 
