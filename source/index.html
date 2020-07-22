@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Главная страница Пинк</title>
   </head>
-  <body>
+  <body class="page__body">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+    <header class="page-header">
 
+      <nav class="main-nav">
+        <a class="main-nav__logo">
+          <img src="../source/img/picture-1.png" width="1" height="1" alt="Логотип сайта для приложения Пинк">
+        </a>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../source/photo.html">
+              Фотографии
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../source/form.html">
+              Конкурс
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#">
+              Html Academy
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main class="page-main">
+
+      <h1 class="visually-hidden">Пинк - сайт для тех, кто любит жизнь в ярких тонах</h1>
+
+      <section class="promo">
+        <header class="promo__header">
+          <h2 class="promo__title">Взгляните на жизнь иначе!</h2>
+          <img src="../source/img/hand-phone.png" width="1" height="1" alt="Смартфон с фотографией розового цвета">
+        </header>
+        <a href="https://www.apple.com/ru/ios/app-store/" class="promo__download">Скачать приложение</a>
+        <ul class="promo__social">
+          <li class="promo__item promo__item--apple">
+            <a href="https://www.apple.com/ru/ios/app-store/">
+              <!-- SVG-файлы -->
+            </a>
+          </li>
+          <li class="promo__item promo__item--android">
+            <a href="https://play.google.com/store?hl=ru">
+              <!-- SVG-файлы -->
+            </a>
+          </li>
+          <li class="promo__item promo__item--windows">
+            <a href="https://www.microsoft.com/ru-ru/store/apps">
+              <!-- SVG-файлы -->
+            </a>
+          </li>
+        </ul>
+        <p class="promo__support">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </section>
+
+      <section class="advantages">
+        <p class="advantages__question">
+          Устали от серости<br>
+          мегаполиса?
+        </p>
+        <h2 class="advantages__title">
+          Нам есть, что вам<br>
+          предложить!
+        </h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h3 class="advantages__subtitle">Поднимает настроение</h3>
+            <p class="advantages__desc">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="advantages__item">
+            <h3 class="advantages__subtitle">Меняет мир вокруг</h3>
+            <p class="advantages__desc">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="advantages__item">
+            <h3 class="advantages__subtitle">Заводит новых друзей</h3>
+            <p class="advantages__desc">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+        <img src="../source/img/smartphone.jpg" width="1" height="1" alt="Смартфон с надписью приветствия на дисплее">
+      </section>
+
+    </main>
   </body>
 </html>
