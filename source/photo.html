@@ -145,6 +145,38 @@
         </ul>
       </section>
 
+      <section class="photo-editor">
+        <h2 class="visually-hidden">Попробуйте различные фильтры</h2>
+        <p class="photo-editor__desc">Затмите их всех!<br>
+          Выкладывайте все, что накопилось в телефоне!
+        </p>
+        <img src="../source/img/winter.jpg" width="1" height="1" alt="Зимняя дорога">
+        <form action="https://echo.htmlacademy.ru/" method="POST">
+          <input type="radio" id="crop" name="toggle" checked>
+          <input type="radio" id="fill" name="toggle">
+          <input type="radio" id="contrast" name="toggle">
+          <div class="photo-editor__controls">
+            <label for="crop">
+              <!-- SVG-файл -->
+              <input type="range" name="crop" min="1" max="100">
+            </label>
+            <label for="fill">
+              <!-- SVG-файл -->
+              <input type="range" name="fill" min="1" max="100">
+            </label>
+            <label for="contrast">
+              <!-- SVG-файл -->
+              <input type="range" name="contrast" min="1" max="100">
+            </label>
+          </div>
+          <div class="photo-editor__buttons">
+            <button class="photo-editor__post-btn" type="submit">Запостить</button>
+            <button class="photo-editor__cancel-btn photo-editor__cancel-btn--reset" type="reset">Отмена</button>
+          </div>
+        </form>
+
+      </section>
+
     </main>
 
     <footer class="page-footer">

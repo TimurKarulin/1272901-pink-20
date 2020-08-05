@@ -44,7 +44,84 @@
     <main class="page-main">
 
       <h1 class="page__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+      <section class="post">
+        <h2 class="visually-hidden">Заполните форму и выиграйте</h2>
+        <p class="post__desc">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
 
+        <form action="https://echo.htmlacademy.ru/" method="POST">
+
+          <fieldset class="post__personality">
+            <label class="post__subtitle" for="last-name">Фамилия:</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Укажите фамилию *">
+            <label class="post__subtitle" for="first-name">Имя:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Введите ваше имя *">
+            <label class="post__subtitle" for="middle-name">Отчество:</label>
+            <input type="text" id="middle-name" name="middle-name" placeholder="Ну и отчество тоже">
+          </fieldset>
+
+          <fieldset class="post__progress">
+            <legend class="post__subtitle">Ваши безбашенные достижения в путешествии</legend>
+            <ul class="post__progress-list">
+              <li class="post__progress-item">
+                <input type="checkbox" id="selfie" name="selfie" checked>
+                <label for="selfie">Сделал селфи с акулой</label>
+              </li>
+              <li class="post__progress-item">
+                <input type="checkbox" id="beach" name="beach" checked>
+                <label for="beach">Обгорел на пляже</label>
+              </li>
+              <li class="post__progress-item">
+                <input type="checkbox" id="norris" name="norris">
+                <label for="norris">Видел Чака Норриса</label>
+              </li>
+              <li class="post__progress-item">
+                <input type="checkbox" id="souvenir" name="souvenir">
+                <label for="souvenir">Накупил сувениров</label>
+              </li>
+              <li class="post__progress-item">
+                <input type="checkbox" id="tower" name="tower" checked>
+                <label for="tower">Удержал башню</label>
+              </li>
+              <li class="post__progress-item">
+                <input type="checkbox" id="hotel" name="hotel">
+                <label for="hotel">Разгромил отель</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="post__contacts">
+            <label class="post__subtitle" for="tel-number">Номер телефона</label>
+            <input type="text" id="tel-number" name="tel-number" placeholder="Номер, пожалуйста">
+            <label class="post__subtitle" for="mail">Адрес почты</label>
+            <input type="text" id="mail" name="mail" placeholder="Введите почту *">
+          </fieldset>
+
+          <fieldset class="post__apps">
+            <legend class="post__subtitle">С каким приложением путешествовали?</legend>
+            <ul class="post__apps-list">
+              <li class="post__apps-item">
+                <input type="radio" name="toggle-app" id="ios">
+                <label for="ios">Pink для iOS</label>
+              </li>
+              <li class="post__apps-item">
+                <input type="radio" name="toggle-app" id="android">
+                <label for="android">Pink на Android</label>
+              </li>
+              <li class="post__apps-item">
+                <input type="radio" name="toggle-app" id="windows">
+                <label for="windows">Windows Phone</label>
+              </li>
+            </ul>
+          </fieldset>
+          
+          <label class="post__comment-title" for="comment-text">Опишите свои эмоции</label>
+          <textarea name="comment-text" id="comment-text" cols="12" rows="10">
+            Можно прям в красках, не стесняясь в выражениях
+          </textarea>
+          <button class="post__enter-form" type="submit">Отправить форму</button>
+        </form>
+        <p class="post__annotation">* - обязательные поля</p>
+      </section>
     </main>
 
     <footer class="page-footer">
